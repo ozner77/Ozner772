@@ -11,25 +11,23 @@ int main(){
         V.push_back(a);
 
     }
-    bool up,prevup;
-    ll con,con2;
-    if(V[1]>V[0]){
-        up=true;
-        prevup=false;
-        con=2;
-    }else{
-        up=false;
-        prevup=false;
-    }
-    con2=0;
-    ll ans=0;
-    for(int i=2;i<n;i++){
+    vector<ll> L;
+    L.push_back(0);
+    for(int i=1;i<n-1;i++){
         if(V[i]>V[i-1]){
-            if(up){
-                con++;
-            }else if(prevup){
-                
+            if(V[i]>V[i+1]){
+                L.push_back(1);
+            }else{
+                L.push_back(0);
+            }
+        }else{
+            if(V[i]<V[i-1]){
+                L.push_back(2);
+            }else{
+                L.push_back(0);
             }
         }
     }
+    L.push_back(0);
+    
 }
