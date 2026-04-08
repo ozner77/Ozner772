@@ -45,4 +45,3 @@ int main(){
             cout<<x<<"\n";
         }
     }
-}
