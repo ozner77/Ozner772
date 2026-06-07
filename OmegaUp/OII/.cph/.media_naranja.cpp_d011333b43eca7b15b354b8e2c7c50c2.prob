@@ -1,0 +1,1 @@
+{"name":"Local: media_naranja","url":"c:\\Users\\nbrav_hms8dnn\\Desktop\\Ozner77\\OmegaUp\\OII\\media_naranja.cpp","tests":[{"id":1780693182049,"input":"5\n8 13\n5 11\n2 22\n21 25\n23 27","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\nbrav_hms8dnn\\Desktop\\Ozner77\\OmegaUp\\OII\\media_naranja.cpp","group":"local","local":true}
